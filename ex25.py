@@ -38,3 +38,8 @@ def print_first_and_last_sorted(sentence):
     sword = sort_words(word)
     print_first_word(sword)
     print_last_word(sword)
+
+
+if __name__ == '__main__':
+    sentence = "All good things come to those wo wait"
+    print break_words(sentence)
