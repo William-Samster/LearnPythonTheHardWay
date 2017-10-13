@@ -8,7 +8,7 @@ def break_words(stuff):
 
 #this fucntion will sort the words for us
 def sort_words(words):
-    return sorted(words)
+    return sorted(words, key=str.lower)
 
 #this fucntion will print the firs words
 def print_first_word(words):
