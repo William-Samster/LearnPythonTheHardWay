@@ -29,30 +29,30 @@ print('#'.join(stuff[3:5]))
 
 things = ['a','b', 'c', 'd','e']
 print(things[1])
-#replacing an item in the dictionaries
+# replacing an item in the dictionaries
 things[1] = 'z'
 print(things[1])
 print(things)
 
-#there are other ways of storing in a dictionary using indexes
+# there are other ways of storing in a dictionary using indexes
 
-stuff = {'name':'Som', 'age':'32', 'height':'5.10'}
+stuff = {'name': 'Som', 'age': '32', 'height': '5.10'}
 print(stuff['name'])
 print(stuff['age'])
 print(stuff['height'])
 
-#creating a mapping of state to abbreavation
+# creating a mapping of state to abbreavation
 
 states = {
     'Oregon': 'OR',
     'Florida': 'FL',
-    'California':'CA',
-    'Newyork':'NY',
-    'Michigan':'MI'
+    'California': 'CA',
+    'Newyork': 'NY',
+    'Michigan': 'MI'
 }
 
 
-#create a basic set of states and some cities in them
+# create a basic set of states and some cities in them
 
 cities = {
     'CA':'Sanfransisco',
@@ -82,7 +82,7 @@ print("Florida has", cities[states['Florida']])
 #print every state abbreviation
 print('--'*10)
 for state, abbrev in list(states.items()):
-    print(f"The abbreve of {state} is {abbrev}")
+    print(f"The abbreve of {state} is {abbrev}"),
     print(f"and has city {cities[abbrev]}")
     print('--'*10)
 
