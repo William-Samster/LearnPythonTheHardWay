@@ -1,5 +1,7 @@
 #this is the 13th exercise of the book about parameters and unpacking variables
-
+import sys
+print(sys.version)
+print(sys.executable)
 from sys import argv
 
 script, one, two, three = argv

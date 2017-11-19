@@ -2,7 +2,7 @@
 
 def print_two(*args):
     arg1, arg2 = args
-    print(f"arg 1 = {arg1} and arg2 = {arg2}")
+    print(f"arg 1 = {arg1} and arg2 = {arg2} ")
 
 #we can do the above in a different way of giving two arguments
 
